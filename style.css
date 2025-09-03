@@ -1,13 +1,44 @@
-body {
-    font-family: 'Courier New';
+header {
+    background: #154c79;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px;
+    font-size: 20px;
+    
 }
-h1 {
-    color: blueviolet;
+.logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-p {
-    line-height: 1.6em;
-    color: rgb(14, 14,13)
+nav{
+    display: flex;
+    gap: 40px;
 }
-a {
+nav a{
+    color: white;
     text-decoration: none;
+}
+.profile{
+    display: flex;
+    padding: 50px 50px;
+    gap: 50px;
+    background: lightblue;
+}
+.profile img{
+    border-radius: 50%;
+}
+.nama{
+    margin: 0px 0px 50px 0px;
+}
+.contact{
+    padding: 50px 50px;
+    background: #e1eff0;
+}
+footer{
+    padding: 20px 30px;
+    background: black;
+    color: white;
+    text-align: center;
 }

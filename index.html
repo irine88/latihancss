@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-    <!-- <style>
-        body {
-            font-family: 'Courier New';
-        }
-        h1 {
-            color: blueviolet;
-        }
-        p {
-            line-height: 1.6em;
-            color: rgb(14, 14,13)
-        }
-    </style> -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image: url('bgcss.jpg');">
-    <a href="profil.html">Profil</a>
-    <a href="#">Info</a>
-    <a href="#">Kontak</a>
-    <h1>
-        Hello, World!
-    </h1>
-    <p>
-        Cascading Style Sheets atau CSS adalah bahasa pemrograman berbasis aturan yang dikembangkan oleh World Wide Web Consortium (W3C) pada tahun 1996. CSS dikembangkan karena HTML yang berfungsi untuk memformat halaman web tidak bisa menambahkan gaya atau tata letak tingkat lanjut.<br>
-        Misalnya, pada HTML versi 3.2, sudah diperkenalkan tag &lt;font&gt; agar gaya teks bisa diubah.<br>
-        Namun, web designer amatir menyalahgunakannya dan tidak ada opsi fallback seperti yang sekarang tersedia di CSS. Jadi, pilihan terbaiknya adalah tetap memisahkan pemformatan (HTML) dan penataan gaya (CSS)
-    </p>
+<body style="margin: 0 auto; font-family: 'Courier New';">
+    <header>
+        <div class="logo">
+            <img src="logo.png"alt="logophoto">
+            <b>Irine Dewi</b>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="profil.html">Profile</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="profile">
+        <img src="cvphoto.jpg" alt="photoindex">
+        <div class="nama">
+            <h1>Hello, my name is Irine.</h1>
+            <p>I am a highly motivated person with strong will to learn useful things.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <p>Email : irine.dewi@gmail.com</p>
+        <p>Phone : +62 8123 4567 89</p>
+    </section>
+    <footer>
+        © Irine. All rights reserved.
+    </footer>
 </body>
 </html>
